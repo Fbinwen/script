@@ -2,6 +2,7 @@
  * 监控汇率变化
  * @author: Peng-YM
  * 更新地址：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js
+ https://raw.githubusercontent.com/Fbinwen/script/main/huilv.js
  * 配置方法：
  * 1. 设置基准货币，默认人民币(CNY)。
  * 2. 设置保留几位小数。
