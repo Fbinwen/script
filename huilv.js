@@ -1,6 +1,6 @@
 /**
  * 监控汇率变化
- * @author: Peng-YM
+ * @author: Fbinwen
  * 更新地址：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js
  * 配置方法：
  * 1. 设置基准货币，默认人民币(CNY)。
@@ -19,7 +19,7 @@ const currencyNames = {
     JPY: ["日元", "🇯🇵"],
     EUR: ["欧元", "🇪🇺"],
     GBP: ["英镑", "🇬🇧"],
-    TWD: ["台币", "tw"],
+    TWD: ["台币", "ws"],
     TRY: ["里拉", "🇹🇷"],
 };
 
