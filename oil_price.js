@@ -70,7 +70,7 @@ $.http.get({
             $.notify("油价查询", "解析失败", "请检查脚本或反馈给开发者")
         } else {
             const content = `${prices[0].name}\t\t\t${prices[0].value}\n${prices[1].name}\t\t\t${prices[1].value}\n${prices[2].name}\t\t\t${prices[2].value}\n${prices[3].name}\t\t\t${prices[3].value}`;
-            $.notify("油价查询", `${friendly_tips}`, content);
+            $.notify("🚗油价查询", `${friendly_tips}`, content);
             console.log("油价查询成功")
             //console.log(`油价查询结果：\n${friendly_tips}\n${content}`)
         }
