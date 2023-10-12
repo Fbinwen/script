@@ -3,7 +3,7 @@
   "name": "Fbinwen 应用订阅",
   "author": "@Fbinwen",
   "icon": "https://raw.githubusercontent.com/Fbinwen/bin-icon/main/tool/kiss.png",
-  "repo": "https://github.com/FoKit",
+  "repo": "https://github.com/Fbinwen",
   "apps": [
     {
       "id": "ql",
