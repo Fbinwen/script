@@ -68,7 +68,7 @@ http:
 
 script-providers:
   i 茅台:
-    url: https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js
+    url: https://raw.githubusercontent.com/Fbinwen/script/main/i-maotai.js
     interval: 86400
 
 */
