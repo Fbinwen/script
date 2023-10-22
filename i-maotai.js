@@ -24,9 +24,9 @@ https://raw.githubusercontent.com/FoKit/Scripts/main/rewrite/get_maotai_token.sg
 hostname = %APPEND% app.moutai519.com.cn
 
 [Script]
-茅台Token = type=http-request,pattern=^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js
+茅台Token = type=http-request,pattern=^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Fbinwen/script/main/i-maotai.js
 
-i 茅台 = type=cron,cronexp=17 9 * * *,timeout=60,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js,script-update-interval=0
+i 茅台 = type=cron,cronexp=17 9 * * *,timeout=60,script-path=https://raw.githubusercontent.com/Fbinwen/script/main/i-maotai.js,script-update-interval=0
 
 ------------------ Loon 配置 ------------------
 
@@ -34,9 +34,9 @@ i 茅台 = type=cron,cronexp=17 9 * * *,timeout=60,script-path=https://raw.githu
 hostname = app.moutai519.com.cn
 
 [Script]
-http-request ^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query tag=茅台Token, script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js,requires-body=0
+http-request ^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query tag=茅台Token, script-path=https://raw.githubusercontent.com/Fbinwen/script/main/i-maotai.js,requires-body=0
 
-cron "17 9 * * *" script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js,tag = i 茅台,enable=true
+cron "17 9 * * *" script-path=https://raw.githubusercontent.com/Fbinwen/script/main/i-maotai.js,tag = i 茅台,enable=true
 
 -------------- Quantumult X 配置 --------------
 
