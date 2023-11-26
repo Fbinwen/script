@@ -544,7 +544,7 @@ async function getEnergyAward() {
             if (data.data?.awardRule.length > 0) {
               let awardRule = data.data.awardRule;
               for (const item of awardRule) {
-                result += `🎉 获得申购奖励: ${item.goodName} +${item.count}`;
+                result += `🏆 获得申购奖励: ${item.goodName} +${item.count}`;
               }
             }
           } else if (data?.code === 40001) {
