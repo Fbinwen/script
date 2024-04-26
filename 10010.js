@@ -21,7 +21,7 @@ http-request https:\/\/m\.client\.10010\.com\/(.*)\/smartwisdomCommon tag=联通
 ===================
 
 [rewrite_local]
-https:\/\/m\.client\.10010\.com\/(.*)\/smartwisdomCommon  url script-request-header https://raw.githubusercontent.com/dompling/Script/master/10010/index.js
+https:\/\/m\.client\.10010\.com\/(.*)\/smartwisdomCommon  url script-request-header https://raw.githubusercontent.com/Fbinwen/script/main/rewrite/10010%20cookie.conf
 
  */
 
