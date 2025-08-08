@@ -6,7 +6,7 @@ let body = $response.body;
 
 switch (isResp) {
   // 草榴社区-评论区广告
-  case /^https:\/\/2023\.redircdn\.com\/web\/mob_post\.js\?/.test(url):
+  case /^https:\/\/www\.igxg1916\.top\/static\/js\?/.test(url):
     try {
       body = body.replace(/spinit\(\)/g, "spinit0()");
     } catch (err) {
